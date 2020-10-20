@@ -6,5 +6,5 @@ Program: dict_membership.py
 
 
 def in_dict(some_key, some_dict):
-	pass
+	return some_key in some_dict
 
