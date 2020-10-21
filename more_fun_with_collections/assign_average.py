@@ -6,7 +6,8 @@ Program: assign_average.py
 
 
 def switch_average(entry):
-	my_dict = {'A': "You entered an A!"}
+	my_dict = {'A': "You entered an A!",
+			   'B': 'You entered an B!'}
 	return my_dict.get(entry)
 
 
