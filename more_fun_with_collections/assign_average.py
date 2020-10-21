@@ -11,7 +11,7 @@ def switch_average(entry):
 			   'C': 'You entered an C!',
 			   'D': 'You entered an D!',
 			   'E': 'You entered an E!'}
-	return my_dict.get(entry)
+	return my_dict.get(entry, "This is not a valid key")
 
 
 if __name__ == '__main__':
