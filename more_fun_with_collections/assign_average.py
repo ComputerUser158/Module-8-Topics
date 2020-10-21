@@ -9,7 +9,8 @@ def switch_average(entry):
 	my_dict = {'A': "You entered an A!",
 			   'B': 'You entered an B!',
 			   'C': 'You entered an C!',
-			   'D': 'You entered an D!'}
+			   'D': 'You entered an D!',
+			   'E': 'You entered an E!'}
 	return my_dict.get(entry)
 
 
